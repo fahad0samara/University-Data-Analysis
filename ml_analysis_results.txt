@@ -1,0 +1,36 @@
+Machine Learning Analysis Results
+===============================
+
+1. Endowment Prediction Model
+R² Score: 0.679
+
+Feature Importance:
+                  Feature  Importance
+0                     Age    0.172973
+1          Academic Staff    0.092875
+2      Number of Students    0.116781
+3  Volumes in the library    0.535759
+4     Student_Staff_Ratio    0.081612
+
+2. Cluster Analysis
+
+Cluster Characteristics:
+         Endowment  Minimum Tuition cost  Number of Students     Age  Student_Staff_Ratio
+Cluster                                                                                  
+0             3.21              27445.65            18950.23  151.91                11.32
+1             0.89              12021.28            31727.72  126.19                24.63
+2            27.41              39642.86            28902.86  265.00                 6.34
+3             3.09              11312.50            48922.58  147.40                11.54
+
+3. Classification Results
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       Lower       0.56      0.67      0.61        15
+      Middle       0.62      0.57      0.59        14
+       Upper       0.78      0.64      0.70        11
+
+    accuracy                           0.62        40
+   macro avg       0.65      0.62      0.63        40
+weighted avg       0.64      0.62      0.63        40
