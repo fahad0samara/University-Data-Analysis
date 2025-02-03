@@ -165,7 +165,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 
-Fahad - fahads@gmail.com
+Fahad - fahad0samara@gmail.com
 
 Project Link: [https://github.com/fahad0samara/University-Data-Analysis](https://github.com/fahad0samara/University-Data-Analysis)
 
